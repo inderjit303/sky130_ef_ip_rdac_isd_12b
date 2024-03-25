@@ -1,0 +1,24 @@
+commit 
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+	new file:   xschem/4bitdac.sch
+	new file:   xschem/4bitdac.sym
+        new file:   xschem/5bitdac.sch
+	new file:   xschem/5bitdac.sym
+	new file:   xschem/6bitdac.sch
+	new file:   xschem/6bitdac.sym
+	new file:   xschem/7bitdac.sch
+	new file:   xschem/7bitdac.sym
+	new file:   xschem/8bitdac.sch
+	new file:   xschem/8bitdac.sym
+	new file:   xschem/tb_4bitdac.sch
+	new file:   xschem/tb_5bitdac.sch
+	new file:   xschem/tb_6bitdac.sch
+	new file:   xschem/tb_7bitdac.sch
+	new file:   xschem/tb_8bitdac.sch
+
