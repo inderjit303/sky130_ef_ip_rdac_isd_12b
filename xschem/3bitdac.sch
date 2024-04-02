@@ -25,9 +25,9 @@ N 530 -320 530 -250 {
 lab=#net2}
 N 490 -350 510 -350 {
 lab=avss}
-C {2bitdac.sym} 590 -320 0 0 {name=x1}
-C {2bitdac.sym} 590 -100 0 0 {name=x2}
-C {switch.sym} 1050 -250 0 0 {name=x3}
+C {2bitdac.sym} 520 -290 0 0 {name=x1}
+C {2bitdac.sym} 520 -70 0 0 {name=x2}
+C {switch.sym} 1000 -250 0 0 {name=x3}
 C {devices/lab_pin.sym} 640 -490 0 0 {name=p1 sig_type=std_logic lab=din0}
 C {devices/ipin.sym} 420 -430 0 0 {name=p2 lab=din0}
 C {devices/lab_pin.sym} 640 -270 0 0 {name=p3 sig_type=std_logic lab=din0}

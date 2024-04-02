@@ -5,19 +5,19 @@ K {}
 V {}
 S {}
 E {}
-N 1190 -680 1240 -680 {
+N 900 -890 950 -890 {
 lab=out7bitdac}
-N 790 -620 890 -620 {
+N 500 -830 600 -830 {
 lab=GND}
-N 790 -620 790 -580 {
+N 500 -830 500 -790 {
 lab=GND}
-N 790 -580 890 -580 {
+N 500 -790 600 -790 {
 lab=GND}
-N 760 -600 790 -600 {
+N 470 -810 500 -810 {
 lab=GND}
-N 760 -600 760 -560 {
+N 470 -810 470 -770 {
 lab=GND}
-C {devices/code.sym} 1100 -340 0 0 {name=TT_MODELS
+C {devices/code.sym} 800 -550 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval( @value )"
 value="
@@ -26,23 +26,23 @@ value="
 
 "
 spice_ignore=false}
-C {devices/title.sym} 430 -150 0 0 {name=l9 author="Inderjit Singh Dhanjal"}
-C {devices/lab_pin.sym} 890 -600 0 0 {name=p10 sig_type=std_logic lab=avdd}
-C {devices/lab_pin.sym} 890 -640 0 0 {name=p11 sig_type=std_logic lab=vhigh}
-C {devices/lab_pin.sym} 890 -680 0 0 {name=p12 sig_type=std_logic lab=din0}
-C {devices/lab_pin.sym} 890 -660 0 0 {name=p13 sig_type=std_logic lab=din1}
-C {devices/lab_pin.sym} 890 -500 0 0 {name=p14 sig_type=std_logic lab=din5
+C {devices/title.sym} 200 -250 0 0 {name=l9 author="Inderjit Singh Dhanjal"}
+C {devices/lab_pin.sym} 600 -810 0 0 {name=p10 sig_type=std_logic lab=avdd}
+C {devices/lab_pin.sym} 600 -850 0 0 {name=p11 sig_type=std_logic lab=vhigh}
+C {devices/lab_pin.sym} 600 -890 0 0 {name=p12 sig_type=std_logic lab=din0}
+C {devices/lab_pin.sym} 600 -870 0 0 {name=p13 sig_type=std_logic lab=din1}
+C {devices/lab_pin.sym} 600 -710 0 0 {name=p14 sig_type=std_logic lab=din5
 }
-C {devices/lab_pin.sym} 890 -560 0 0 {name=p15 sig_type=std_logic lab=din2}
-C {devices/lab_pin.sym} 890 -540 0 0 {name=p16 sig_type=std_logic lab=din3
+C {devices/lab_pin.sym} 600 -770 0 0 {name=p15 sig_type=std_logic lab=din2}
+C {devices/lab_pin.sym} 600 -750 0 0 {name=p16 sig_type=std_logic lab=din3
 }
-C {devices/lab_pin.sym} 890 -520 0 0 {name=p17 sig_type=std_logic lab=din4
+C {devices/lab_pin.sym} 600 -730 0 0 {name=p17 sig_type=std_logic lab=din4
 }
-C {devices/lab_pin.sym} 890 -480 0 0 {name=p18 sig_type=std_logic lab=din6
+C {devices/lab_pin.sym} 600 -690 0 0 {name=p18 sig_type=std_logic lab=din6
 }
-C {devices/opin.sym} 1240 -680 0 0 {name=p19 lab=out7bitdac}
-C {7bitdac.sym} 810 -350 0 0 {name=x1}
-C {devices/gnd.sym} 760 -560 0 0 {name=l11 lab=GND}
+C {devices/opin.sym} 950 -890 0 0 {name=p19 lab=out7bitdac}
+C {7bitdac.sym} 440 -520 0 0 {name=x1}
+C {devices/gnd.sym} 470 -770 0 0 {name=l11 lab=GND}
 C {devices/vsource.sym} 190 -730 0 0 {name=V10 value=3.3 savecurrent=false}
 C {devices/gnd.sym} 190 -700 0 0 {name=l12 lab=GND}
 C {devices/lab_pin.sym} 190 -760 0 0 {name=p20 sig_type=std_logic lab=avdd}
@@ -70,8 +70,8 @@ C {devices/vsource.sym} 410 -640 0 0 {name=V17 value="pulse(0 1.8 0 10p 10p 16u 
 C {devices/gnd.sym} 410 -610 0 0 {name=l19 lab=GND}
 C {devices/lab_pin.sym} 410 -670 0 0 {name=p27 sig_type=std_logic lab=din5
 }
-C {devices/code_shown.sym} 1360 -550 0 0 {name=spice only_toplevel=false value="
-.tran 1n 64u
+C {devices/code_shown.sym} 950 -730 0 0 {name=spice only_toplevel=false value="
+.tran 0.002u 64u
 .control
 run
 plot din0

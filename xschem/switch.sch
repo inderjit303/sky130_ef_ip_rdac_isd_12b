@@ -101,34 +101,6 @@ N 1220 -630 1480 -630 {
 lab=outsw}
 N 1350 -630 1350 -610 {
 lab=outsw}
-C {sky130_fd_pr/pfet_01v8.sym} 660 -700 0 0 {name=M11
-L=0.15
-W=1.2
-nf=1 mult=1
-model=pfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/pfet_01v8.sym} 890 -700 0 0 {name=M1
-L=0.15
-W=1.2
-nf=1 mult=1
-model=pfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/nfet_01v8.sym} 660 -560 0 0 {name=M2
-L=0.15
-W=0.6
-nf=1 mult=1
-model=nfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/nfet_01v8.sym} 890 -560 0 0 {name=M3
-L=0.15
-W=0.6
-nf=1 mult=1
-model=nfet_01v8
-spiceprefix=X
-}
 C {devices/title.sym} 660 -360 0 0 {name=l1 author="Inderjit Singh Dhanjal"}
 C {devices/lab_pin.sym} 680 -500 0 0 {name=p1 sig_type=std_logic lab=avss}
 C {devices/lab_pin.sym} 910 -500 0 0 {name=p2 sig_type=std_logic lab=avss}
@@ -146,36 +118,8 @@ C {devices/lab_pin.sym} 760 -700 2 0 {name=p10 sig_type=std_logic lab=avdd}
 C {devices/lab_pin.sym} 990 -700 2 0 {name=p11 sig_type=std_logic lab=avdd
 }
 C {devices/ipin.sym} 450 -570 0 0 {name=p12 lab=din}
-C {sky130_fd_pr/pfet_01v8.sym} 1200 -690 0 0 {name=M4
-L=0.15
-W=1.2
-nf=1 mult=1
-model=pfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/nfet_01v8.sym} 1200 -560 0 0 {name=M5
-L=0.15
-W=0.6
-nf=1 mult=1
-model=nfet_01v8
-spiceprefix=X
-}
 C {devices/lab_pin.sym} 1300 -690 2 0 {name=p13 sig_type=std_logic lab=avdd}
 C {devices/lab_pin.sym} 1300 -560 2 0 {name=p14 sig_type=std_logic lab=avss
-}
-C {sky130_fd_pr/nfet_01v8.sym} 1500 -690 0 1 {name=M6
-L=0.15
-W=0.6  
-nf=1 mult=1
-model=nfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/pfet_01v8.sym} 1500 -560 0 1 {name=M7
-L=0.15
-W=1.2
-nf=1 mult=1
-model=pfet_01v8
-spiceprefix=X
 }
 C {devices/lab_pin.sym} 960 -640 2 0 {name=p15 sig_type=std_logic lab=wc
 }
@@ -193,3 +137,59 @@ C {devices/ipin.sym} 450 -730 0 0 {name=p22 lab=in1}
 C {devices/ipin.sym} 450 -690 0 0 {name=p23 lab=in2}
 C {devices/lab_pin.sym} 1350 -610 0 0 {name=p24 sig_type=std_logic lab=outsw}
 C {devices/opin.sym} 480 -760 0 0 {name=p25 lab=outsw}
+C {sky130_fd_pr/pfet_g5v0d10v5.sym} 660 -700 0 0 {name=M10
+L=0.5
+W=1
+nf=1 mult=1
+model=pfet_g5v0d10v5
+spiceprefix=X
+}
+C {sky130_fd_pr/nfet_g5v0d10v5.sym} 660 -560 0 0 {name=M2
+L=0.5
+W=1
+nf=1 mult=1
+model=nfet_g5v0d10v5
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_g5v0d10v5.sym} 890 -700 0 0 {name=M1
+L=0.5
+W=1
+nf=1 mult=1
+model=pfet_g5v0d10v5
+spiceprefix=X
+}
+C {sky130_fd_pr/nfet_g5v0d10v5.sym} 890 -560 0 0 {name=M3
+L=0.5
+W=1
+nf=1 mult=1
+model=nfet_g5v0d10v5
+spiceprefix=X
+}
+C {sky130_fd_pr/nfet_g5v0d10v5.sym} 1200 -560 0 0 {name=M5
+L=0.5
+W=1
+nf=1 mult=1
+model=nfet_g5v0d10v5
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_g5v0d10v5.sym} 1200 -690 0 0 {name=M4
+L=0.5
+W=1
+nf=1 mult=1
+model=pfet_g5v0d10v5
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_g5v0d10v5.sym} 1500 -560 0 1 {name=M11
+L=0.5
+W=1
+nf=1 mult=1
+model=pfet_g5v0d10v5
+spiceprefix=X
+}
+C {sky130_fd_pr/nfet_g5v0d10v5.sym} 1500 -690 0 1 {name=M12
+L=0.5
+W=1
+nf=1 mult=1
+model=nfet_g5v0d10v5
+spiceprefix=X
+}

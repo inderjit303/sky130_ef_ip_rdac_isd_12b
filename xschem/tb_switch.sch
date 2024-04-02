@@ -26,7 +26,7 @@ C {devices/gnd.sym} 220 -400 0 0 {name=l4 lab=GND}
 C {devices/vsource.sym} 140 -330 0 0 {name=V3 value=1.65 savecurrent=false}
 C {devices/lab_pin.sym} 140 -360 0 0 {name=p5 sig_type=std_logic lab=in1}
 C {devices/gnd.sym} 140 -300 0 0 {name=l5 lab=GND}
-C {devices/vsource.sym} 180 -230 0 0 {name=V4 value="pulse(0 1.8 0 100p 100p 5n 10n)" savecurrent=false}
+C {devices/vsource.sym} 180 -230 0 0 {name=V4 value="pulse(0 1.8 0 100p 100p 0.5u 1u)" savecurrent=false}
 C {devices/lab_pin.sym} 450 -440 0 0 {name=p6 sig_type=std_logic lab=in1}
 C {devices/lab_pin.sym} 450 -360 0 0 {name=p7 sig_type=std_logic lab=din}
 C {devices/lab_pin.sym} 180 -260 0 0 {name=p8 sig_type=std_logic lab=din}
@@ -42,7 +42,7 @@ value="
 "
 spice_ignore=false}
 C {devices/code_shown.sym} 860 -280 0 0 {name=Spice only_toplevel=false value="
-.tran 0.1n 10n
+.tran 0.002u 1u
 .control
 run
 plot din
@@ -50,4 +50,4 @@ plot in1 in2
 plot outsw
 .endc
 .end"}
-C {switch.sym} 400 -310 0 0 {name=x1}
+C {switch.sym} 350 -310 0 0 {name=x1}

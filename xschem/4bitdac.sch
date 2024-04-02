@@ -25,9 +25,9 @@ N 1040 -590 1070 -590 {
 lab=x2out}
 N 1370 -610 1400 -610 {
 lab=out4bitdac}
-C {3bitdac.sym} 470 -400 0 0 {name=x1}
-C {3bitdac.sym} 470 -150 0 0 {name=x2}
-C {switch.sym} 1020 -480 0 0 {name=x3}
+C {3bitdac.sym} 480 -500 0 0 {name=x1}
+C {3bitdac.sym} 480 -250 0 0 {name=x2}
+C {switch.sym} 970 -480 0 0 {name=x3}
 C {devices/title.sym} 320 -300 0 0 {name=l1 author="Inderjit Singh Dhanjal"}
 C {devices/lab_pin.sym} 620 -750 0 0 {name=p1 sig_type=std_logic lab=din0}
 C {devices/lab_pin.sym} 620 -730 0 0 {name=p2 sig_type=std_logic lab=din1}

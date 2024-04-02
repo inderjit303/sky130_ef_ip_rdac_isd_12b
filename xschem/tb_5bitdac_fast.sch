@@ -29,6 +29,7 @@ spice_ignore=false}
 C {devices/code_shown.sym} 1040 -610 0 0 {name=spice only_toplevel=false value="
 .tran 0.002u 16u
 .control
+save din0 din1 din2 din3 din4 out5bitdac
 run
 plot din0
 plot din1 

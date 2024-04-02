@@ -27,9 +27,9 @@ N 760 -480 790 -480 {
 lab=x2out}
 N 1230 -580 1270 -580 {
 lab=out6bitdac}
-C {5bitdac.sym} 380 -480 0 0 {name=x1}
-C {5bitdac.sym} 380 -230 0 0 {name=x2}
-C {switch.sym} 880 -450 0 0 {name=x3}
+C {5bitdac.sym} 350 -450 0 0 {name=x1}
+C {5bitdac.sym} 350 -200 0 0 {name=x2}
+C {switch.sym} 830 -450 0 0 {name=x3}
 C {devices/ipin.sym} 120 -650 0 0 {name=p21 lab=din0}
 C {devices/ipin.sym} 120 -620 0 0 {name=p23 lab=din1}
 C {devices/ipin.sym} 120 -590 0 0 {name=p24 lab=vhigh}
@@ -49,7 +49,7 @@ C {devices/lab_pin.sym} 460 -590 0 0 {name=p6 sig_type=std_logic lab=din3}
 C {devices/lab_pin.sym} 460 -570 0 0 {name=p7 sig_type=std_logic lab=din4}
 C {devices/lab_pin.sym} 460 -690 0 0 {name=p8 sig_type=std_logic lab=vhigh}
 C {sky130_fd_pr/res_high_po_0p35.sym} 310 -520 0 0 {name=R6
-L=0.35
+L=3
 model=res_high_po_0p35
 spiceprefix=X
  mult=1}

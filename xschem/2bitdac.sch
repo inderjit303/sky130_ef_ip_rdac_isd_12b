@@ -46,16 +46,16 @@ lab=x2_out}
 N 1400 -470 1430 -470 {
 lab=out2bitdac}
 N 300 -650 300 -550 {
-lab=#net4}
+lab=avss}
 N 300 -550 300 -430 {
-lab=#net4}
+lab=avss}
 N 300 -430 300 -310 {
-lab=#net4}
+lab=avss}
 N 280 -490 300 -490 {
-lab=#net4}
-C {switch.sym} 520 -470 0 0 {name=x1}
-C {switch.sym} 520 -240 0 0 {name=x2}
-C {switch.sym} 1050 -340 0 0 {name=x3}
+lab=avss}
+C {switch.sym} 470 -470 0 0 {name=x1}
+C {switch.sym} 470 -240 0 0 {name=x2}
+C {switch.sym} 1000 -340 0 0 {name=x3}
 C {devices/ipin.sym} 130 -560 0 0 {name=p1 lab=din0}
 C {devices/ipin.sym} 130 -520 0 0 {name=p2 lab=vhigh}
 C {devices/ipin.sym} 130 -480 0 0 {name=p3 lab=vlow}

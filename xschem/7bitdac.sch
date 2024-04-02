@@ -27,9 +27,9 @@ N 700 -420 740 -420 {
 lab=x2_out}
 N 1220 -510 1280 -510 {
 lab=out7bitdac}
-C {6bitdac.sym} 150 -380 0 0 {name=x1}
-C {6bitdac.sym} 150 -100 0 0 {name=x2}
-C {switch.sym} 870 -380 0 0 {name=x3}
+C {6bitdac.sym} 320 -460 0 0 {name=x1}
+C {6bitdac.sym} 320 -180 0 0 {name=x2}
+C {switch.sym} 820 -380 0 0 {name=x3}
 C {devices/title.sym} 270 -140 0 0 {name=l1 author="Inderjit Singh Dhanjal"}
 C {devices/ipin.sym} 150 -610 0 0 {name=p21 lab=din0}
 C {devices/ipin.sym} 150 -580 0 0 {name=p23 lab=din1}

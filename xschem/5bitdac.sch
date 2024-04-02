@@ -29,8 +29,8 @@ N 2340 -1140 2360 -1140 {
 lab=x2out}
 N 2660 -1160 2710 -1160 {
 lab=out5bitdac}
-C {4bitdac.sym} 1710 -1040 0 0 {name=x1}
-C {4bitdac.sym} 1710 -750 0 0 {name=x2}
+C {4bitdac.sym} 1830 -1140 0 0 {name=x1}
+C {4bitdac.sym} 1830 -850 0 0 {name=x2}
 C {devices/ipin.sym} 1580 -1240 0 0 {name=p21 lab=din0}
 C {devices/ipin.sym} 1580 -1210 0 0 {name=p23 lab=din1}
 C {devices/ipin.sym} 1580 -1180 0 0 {name=p24 lab=vhigh}
@@ -41,7 +41,7 @@ C {devices/ipin.sym} 1580 -1030 0 0 {name=p28 lab=din2}
 C {devices/ipin.sym} 1580 -990 0 0 {name=p29 lab=din3}
 C {devices/opin.sym} 1600 -1270 0 0 {name=p30 lab=out5bitdac}
 C {devices/ipin.sym} 1580 -950 0 0 {name=p1 lab=din4}
-C {switch.sym} 2310 -1030 0 0 {name=x3}
+C {switch.sym} 2260 -1030 0 0 {name=x3}
 C {devices/lab_pin.sym} 1890 -1330 0 0 {name=p2 sig_type=std_logic lab=din0}
 C {devices/lab_pin.sym} 1890 -1310 0 0 {name=p3 sig_type=std_logic lab=din1}
 C {devices/lab_pin.sym} 1890 -1210 0 0 {name=p4 sig_type=std_logic lab=din2}

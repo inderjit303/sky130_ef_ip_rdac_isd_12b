@@ -33,9 +33,9 @@ N 700 -490 720 -490 {
 lab=#net4}
 N 1200 -600 1240 -600 {
 lab=out8bitdac}
-C {7bitdac.sym} 320 -480 0 0 {name=x1}
-C {7bitdac.sym} 320 -160 0 0 {name=x2}
-C {switch.sym} 850 -470 0 0 {name=x3}
+C {7bitdac.sym} 240 -440 0 0 {name=x1}
+C {7bitdac.sym} 240 -120 0 0 {name=x2}
+C {switch.sym} 800 -470 0 0 {name=x3}
 C {devices/ipin.sym} 120 -700 0 0 {name=p21 lab=din0}
 C {devices/ipin.sym} 120 -670 0 0 {name=p23 lab=din1}
 C {devices/ipin.sym} 120 -640 0 0 {name=p24 lab=vhigh}
